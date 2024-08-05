@@ -42,7 +42,8 @@ module.exports = {
     ],
     stableTokenAddresses: [USDC_ADDRESS, USDT_ADDRESS, DAI_ADDRESS, MIM_ADDRESS],
     nativePricePool: '0x04b1560f4f58612a24cf13531f4706c817e8a5fe',
-    minimumEthLocked: 0.001
+    minimumEthLocked: 0.001,
+    swapsStartBlock: 0,
   },
   auctionMaker: { address: '0x0000000000000000000000000000000000000000', startBlock: 0 },
   staking: { address: '0x0000000000000000000000000000000000000000', startBlock: 0 },

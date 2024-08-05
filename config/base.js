@@ -92,6 +92,7 @@ module.exports = {
     stableTokenAddresses: [DAI_ADDRESS, AXL_USDC_ADDRESS, USDC_ADDRESS, USDBC_ADDRESS, DAI2_ADDRESS],
     nativePricePool: '0x6ecf6b2ca5b1681412839d9b72f43ff87acd3786', // WETH/USDC
     minimumEthLocked: 1,
+    swapsStartBlock: 0,
   },
   routeprocessor: {
     address: "0x0389879e0156033202c44bf784ac18fc02edee4f",

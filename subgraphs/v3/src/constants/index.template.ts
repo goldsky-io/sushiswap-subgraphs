@@ -24,3 +24,5 @@ export const NATIVE_PRICE_POOL = Address.fromString('{{ v3.nativePricePool }}').
 
 
 export const factoryContract = FactoryContract.bind(FACTORY_ADDRESS)
+
+export const swapsStartBlock = BigInt.fromString('{{ v3.swapsStartBlock }}')

@@ -155,7 +155,8 @@ module.exports = {
     ],
     stableTokenAddresses: [USDC_ADDRESS, USDT_ADDRESS, USDTE_ADDRESS, DAI_ADDRESS, MIM_ADDRESS],
     nativePricePool: '0x4a5c0e100f830a1f6b76a42e6bb4be2a7fe0d61b',
-    minimumEthLocked: 50
+    minimumEthLocked: 50,
+    swapsStartBlock: 0,
   },
   furo: {
     stream: { address: '0x4ab2fc6e258a0ca7175d05ff10c5cf798a672cae', startBlock: 15714979 },

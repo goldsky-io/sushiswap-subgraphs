@@ -100,7 +100,8 @@ module.exports = {
     ],
     stableTokenAddresses: [USDC_ADDRESS, USDT_ADDRESS, DAI_ADDRESS, FRAX_ADDRESS],
     nativePricePool: '0x1f6568ffe1226ba293e6d7dab116b5825b2412c9',
-    minimumEthLocked: 120 // WMOVR
+    minimumEthLocked: 120, // WMOVR
+    swapsStartBlock: 0,
   },
   blocks: {
     address: '0xc35dadb65012ec5796536bd9864ed8773abc74c4',

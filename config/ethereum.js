@@ -46,7 +46,7 @@ module.exports = {
     medium: '0x2cba6ab6574646badc84f0544d05059e57a5dc42'
   },
   blocks: {
-    address: '0x6e38A457C722C6011B2dfa06d49240e797844d66',    
+    address: '0x6e38A457C722C6011B2dfa06d49240e797844d66',
     startBlock: 0
   },
   miso: {
@@ -180,7 +180,7 @@ module.exports = {
     ],
     minimumNativeLiquidity: '2'
   },
-  
+
   v2: {
     nativeAddress: NATIVE_ADDRESS,
     whitelistAddresses: [
@@ -298,7 +298,8 @@ module.exports = {
       TUSD_ADDRESS
     ],
     nativePricePool: '0x35644fb61afbc458bf92b15add6abc1996be5014',
-    minimumEthLocked: 1.5
+    minimumEthLocked: 1.5,
+    swapsStartBlock: 0,
   },
   blacklistedTokenAddresses: [
     '0x9ea3b5b4ec044b70375236a281986106457b20ef' // DELTA

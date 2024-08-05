@@ -89,7 +89,8 @@ module.exports = {
     ],
     stableTokenAddresses: [USDC_ADDRESS, USDT_ADDRESS, DAI_ADDRESS, UST_ADDRESS, FRAX_ADDRESS],
     nativePricePool: '', // TODO: ADD POOL ADDRESS, lowercase it.
-    minimumEthLocked: 3000 // GLMR
+    minimumEthLocked: 3000, // GLMR
+    swapsStartBlock: 0,
   },
   furo: {
     stream: { address: '0x4ab2fc6e258a0ca7175d05ff10c5cf798a672cae', startBlock: 1188323 },

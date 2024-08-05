@@ -181,6 +181,7 @@ module.exports = {
     ],
     nativePricePool: '0x0a75979346b82c5af448c620bf9762384a7c765e',
     minimumEthLocked: 1000000000,
+    swapsStartBlock: 0,
   },
   routeprocessor: {
     address: "0x93c31c9c729a249b2877f7699e178f4720407733",

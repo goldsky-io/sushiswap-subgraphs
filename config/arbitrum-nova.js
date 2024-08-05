@@ -67,7 +67,8 @@ module.exports = {
     ],
     stableTokenAddresses: [USDC_ADDRESS, USDT_ADDRESS, DAI_ADDRESS],
     nativePricePool: '0x95442e8ac3a0a9021288f094a23f4dbb8cb5308a',
-    minimumEthLocked: 1
+    minimumEthLocked: 1,
+    swapsStartBlock: 0,
   },
   v2: {
     nativeAddress: NATIVE_ADDRESS,
@@ -100,5 +101,5 @@ module.exports = {
   routeprocessor: {
     address: '0xcdbcd51a5e8728e0af4895ce5771b7d17ff71959',
     startBlock: 51612485,
-  }
+  },
 }

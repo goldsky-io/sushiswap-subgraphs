@@ -54,6 +54,7 @@ module.exports = {
     stableTokenAddresses: [DAI_ADDRESS, USDC_ADDRESS, USDT_ADDRESS],
     nativePricePool: '0x6766f7852b63187a2054eda1fa60cc0b2e2ee930', // WISLM/USDC
     minimumEthLocked: 3500,
+    swapsStartBlock: 0,
   },
   legacy: {
     native: { address: NATIVE_ADDRESS },

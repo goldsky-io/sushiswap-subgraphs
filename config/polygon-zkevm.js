@@ -37,6 +37,7 @@ module.exports = {
     stableTokenAddresses: [USDC_ADDRESS, USDT_ADDRESS, DAI_ADDRESS],
     nativePricePool: '0x41bbde5dfa689a2e53808d752e864c013ac4b733',
     minimumEthLocked: 0.7,
+    swapsStartBlock: 0,
   },
   v2: {
     nativeAddress: NATIVE_ADDRESS,

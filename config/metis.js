@@ -70,7 +70,7 @@ module.exports = {
       USDC_ADDRESS
     ],
     minimumNativeLiquidity: '2', // Threshold for being considered for pricing
-    
+
   },
   furo: {
     stream: { address: '0x0000000000000000000000000000000000000000', startBlock: 0 },
@@ -143,6 +143,7 @@ module.exports = {
     stableTokenAddresses: [DAI_ADDRESS, USDC_ADDRESS, USDT_ADDRESS],
     nativePricePool: '0xf956887f404883a838a388b7884ca85b223bd54d', // METIS/USDC
     minimumEthLocked: 2,
+    swapsStartBlock: 0,
   },
   routeprocessor: {
     address: '0xb45e53277a7e0f1d35f2a77160e91e25507f1763',

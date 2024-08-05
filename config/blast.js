@@ -21,7 +21,7 @@ module.exports = {
       ORE_ADDRESS
     ],
     stableTokenAddresses: [
-      USDB_ADDRESS, 
+      USDB_ADDRESS,
       axlUSDC_ADDRESS,
     ],
     minimumNativeLiquidity: 1,
@@ -73,6 +73,7 @@ module.exports = {
     ],
     nativePricePool: '0xcd03572e7cfb94996beebaa539234ce5c23ae1d6', // WETH/USDB - 0.03%
     minimumEthLocked: 1,
+    swapsStartBlock: 0,
   },
   routeprocessor: {
     address: "0xcdbcd51a5e8728e0af4895ce5771b7d17ff71959",

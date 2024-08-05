@@ -91,6 +91,7 @@ module.exports = {
     ],
     nativePricePool: '0xc0b92ac272d427633c36fd03dc104a2042b3a425', // WRBTC/RUSDT - 0.03%
     minimumEthLocked: 0.02,
+    swapsStartBlock: 0,
   },
   routeprocessor: {
     address: "0xb46e319390de313b8cc95ea5aa30c7bbfd79da94",

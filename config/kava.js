@@ -167,7 +167,8 @@ module.exports = {
     ],
     stableTokenAddresses: [USDT_ADDRESS, axlUSDC_ADDRESS, axlUSDT_ADDRESS],
     nativePricePool: '0x324fb03755683b613d6062b5b5aca71979f582b7', // KAVA/USDT
-    minimumEthLocked: 200
+    minimumEthLocked: 200,
+    swapsStartBlock: 0,
   },
   routeprocessor: {
     address: "0xb45e53277a7e0f1d35f2a77160e91e25507f1763",

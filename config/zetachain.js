@@ -95,6 +95,7 @@ module.exports = {
     ],
     nativePricePool: '0xe449be94d63ce46c80ac21c486630013e66d2fe5', // ZETA/USDT.ETH - 0.03%
     minimumEthLocked: 1000,
+    swapsStartBlock: 0,
   },
   routeprocessor: {
     address: '0x640129e6b5c31b3b12640a5b39fecdca9f81c640',

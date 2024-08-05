@@ -55,6 +55,7 @@ module.exports = {
     stableTokenAddresses: [USDT_ADDRESS, USDC_ADDRESS],
     nativePricePool: '0x95dcc9e9bf80980375494346e00fc5aef6883ef7', // WCORE/USDT 0.05%
     minimumEthLocked: 1000,
+    swapsStartBlock: 0,
   },
   legacy: {
     native: { address: NATIVE_ADDRESS },
