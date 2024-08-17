@@ -73,7 +73,8 @@ module.exports = {
     ],
     nativePricePool: '0xcd03572e7cfb94996beebaa539234ce5c23ae1d6', // WETH/USDB - 0.03%
     minimumEthLocked: 1,
-    swapsStartBlock: 0,
+    // First block since August 1st, 2024 UTC (Aug-01-2024 12:00:01 AM +UTC)
+    swapsStartBlock: 6830293,
   },
   routeprocessor: {
     address: "0xcdbcd51a5e8728e0af4895ce5771b7d17ff71959",

@@ -142,7 +142,8 @@ module.exports = {
     ],
     nativePricePool: '0xc0e2792774b2f602f74f6056ed95ab958d253823',
     minimumEthLocked: 3,
-    swapsStartBlock: 0,
+    // First block since August 1st, 2024 UTC (Aug-01-2024 12:00:01 AM +UTC)
+    swapsStartBlock: 40967672,
   },
   furo: {
     stream: { address: '0x4ab2fc6e258a0ca7175d05ff10c5cf798a672cae', startBlock: 18479521 },

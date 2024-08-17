@@ -299,7 +299,8 @@ module.exports = {
     ],
     nativePricePool: '0x35644fb61afbc458bf92b15add6abc1996be5014',
     minimumEthLocked: 1.5,
-    swapsStartBlock: 0,
+    // First block since August 1st, 2024 UTC (Aug-01-2024 12:00:11 AM +UTC)
+    swapsStartBlock: 20429973,
   },
   blacklistedTokenAddresses: [
     '0x9ea3b5b4ec044b70375236a281986106457b20ef' // DELTA

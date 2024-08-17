@@ -198,6 +198,8 @@ module.exports = {
     stableTokenAddresses: [USDC_ADDRESS, USDT_ADDRESS, DAI_ADDRESS, FRAX_ADDRESS, USDC_CIRCLE_ADDRESS],
     nativePricePool: '0x21988c9cfd08db3b5793c2c6782271dc94749251',
     minimumEthLocked: 1000,
+    // First block since August 1st, 2024 UTC (Aug-01-2024 12:00:00 AM +UTC)
+    swapsStartBlock: 60046224,
   },
   miso: {
     accessControls: { address: '0x6b2a3ff504798886862ca5ce501e080947a506a2', startBlock: 26075438 },

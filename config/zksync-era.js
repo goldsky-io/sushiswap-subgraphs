@@ -27,5 +27,7 @@ module.exports = {
     stableTokenAddresses: [USDC_ADDRESS],
     nativePricePool: '0x4f98226ff839feff281fa6741fc2ef4f6ff22468', // WETH/USDC
     minimumEthLocked: 1,
+    // First block since August 1st, 2024 UTC (Aug-01-2024 12:00:00 AM +UTC)
+    swapsStartBlock: 40538399,
   },
 }

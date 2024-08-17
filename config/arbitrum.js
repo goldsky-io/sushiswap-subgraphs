@@ -174,7 +174,8 @@ module.exports = {
     stableTokenAddresses: [USDC_ADDRESS, USDC_CIRCLE_ADDRESS, USDT_ADDRESS, DAI_ADDRESS, MIM_ADDRESS, FRAX_ADDRESS],
     nativePricePool: '0x15e444da5b343c5a0931f5d3e85d158d1efc3d40',
     minimumEthLocked: 1,
-    swapsStartBlock: 0,
+    // First block since August 1st, 2024 UTC (Aug-01-2024 12:00:00 AM +UTC)
+    swapsStartBlock: 238132768,
   },
   blacklistedTokenAddresses: [
     '0xeba61eb686b515fae79a96118f140924a634ab23', // ArbFloki

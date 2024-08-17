@@ -117,6 +117,8 @@ module.exports = {
     stableTokenAddresses: [USDC_ADDRESS, USDT_ADDRESS, DAI_ADDRESS],
     nativePricePool: '0x79e11ef350d7c73925f8d0037c2dd1b8ced41533',
     minimumEthLocked: 0.7,
+    // First block since August 1st, 2024 UTC (Aug-01-2024 12:00:01 AM +UTC)
+    swapsStartBlock: 123435812,
   },
   furo: {
     stream: { address: '0x4ab2fc6e258a0ca7175d05ff10c5cf798a672cae', startBlock: 10835062 },
