@@ -12,6 +12,7 @@ import { findEthPerToken, getEthPriceInUSD, getTrackedAmountUSD, sqrtPriceX96ToT
 export function handleInitialize(event: Initialize): void {
   // update pool sqrt price and tick
   let pool = Pool.load(event.address.toHexString()) as Pool
+  pool.sqrtPrice = event.params.sqrtPriceX96
   pool.save()
 
   // update token prices
@@ -57,6 +58,12 @@ export function handleSwap(event: SwapEvent): void {
 
   // get amount that should be tracked only - div 2 because cant count both input and output as volume
   let amountTotalUSDTracked = safeDiv(getTrackedAmountUSD(amount0Abs, token0, amount1Abs, token1), BigDecimal.fromString('2'))
+
+  // Update the pool with the new active liquidity, price, and tick.
+  pool.liquidity = event.params.liquidity
+  pool.sqrtPrice = event.params.sqrtPriceX96
+  pool.totalValueLockedToken0 = pool.totalValueLockedToken0.plus(amount0)
+  pool.totalValueLockedToken1 = pool.totalValueLockedToken1.plus(amount1)
 
   // updated pool ratess
   let prices = sqrtPriceX96ToTokenPrices(pool.sqrtPrice, token0 as Token, token1 as Token)
