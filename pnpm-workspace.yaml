@@ -2,3 +2,5 @@ packages:
   - "subgraphs/*"
   - "packages/*"
   - "scripts/*"
+
+minimumReleaseAge: 10080
